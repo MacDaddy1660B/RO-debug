@@ -77,7 +77,7 @@ if __name__=="__main__":
             host = host,
             port = port,
             )
-    disp.refreshAllVar(resetAll=True)
     print("**** FINISHED DOING CONNECTION ****")
+    disp.refreshAllVar(resetAll=True)
     reactor.run()  ## For twisted.
     
